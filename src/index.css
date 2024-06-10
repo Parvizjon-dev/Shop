@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    max-width: 1128px;
+    margin: 50px auto;
+}
+
+header ul>li {
+    cursor: pointer;
+    transition: scale 500ms ease;
+}
+
+header ul>li:hover {
+    color: orange;
+    scale: 1.1;
+}
+
+.carousel-after::after {
+    content: 'Лучшие телефоны для вас и вашей семьи!';
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    width: 350px;
+    font-size: 33px;
+    font-weight: 600;
+    color: white;
+}
+
+.carousel-after::before {
+    content: 'По низким ценам';
+    position: absolute;
+    top: 300px;
+    right: 150px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
